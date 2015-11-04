@@ -1,4 +1,5 @@
--- Lesson4ted by: Mr Coxall
+-- Lesson4
+-- Created by: Mr Coxall
 -- Created on: Nov 2015
 -- Created for: ICS2O
 -- This program displays an image and let the user move it with their finger
