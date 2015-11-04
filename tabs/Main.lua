@@ -1,7 +1,5 @@
--- Lesson4a
-
--- Created by: Mr Coxall
--- Created on: Nov 2013
+-- Lesson4ted by: Mr Coxall
+-- Created on: Nov 2015
 -- Created for: ICS2O
 -- This program displays an image and let the user move it with their finger
 
@@ -13,8 +11,8 @@ local imagePosition = vec2()
 -- Use this function to perform your initial setup
 function setup()
     -- setup display and drawing functions
-    supportedOrientations(LANDSCAPE_ANY)    
-    displayMode(FULLSCREEN)
+    supportedOrientations(LANDSCAPE_ANY)       
+    --displayMode(FULLSCREEN)
     noFill()
     noSmooth()
     noStroke()
@@ -49,23 +47,16 @@ function touched(touch)
     if (touch.state == ENDED) then
         
     end
- 
-    
 end
 
 -- This function gets called once every frame
 function draw()
     
     -- local varaibles
- 
     
     -- This sets a dark background color 
     background(0, 0, 0, 255)
     
     sprite("SpaceCute:Background", 512, 384, 1024, 768)
     sprite(imageName, imagePosition.x, imagePosition.y)
-
 end
-
-
-
